@@ -35,7 +35,7 @@ function sw(receive) {
         }
     }
 
-    if(identify === '/simulador//or.html' && broken !== true){
+    if(identify === '/simulador/or.html' && broken !== true){
         if(sw1 === true || sw2 === true){
             document.getElementById('lamp').src = 'img/on.jpg'
         }else{
