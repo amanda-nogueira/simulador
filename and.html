@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simulador</title>
+    <title>AND</title>
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link rel="manifest" href="manifest.json">
 </head>
 <body>
     <header>
-        <h1>Operadores lógicos</h1>
+        <h1>AND</h1>
         <nav>
             <ul>
                 <li><a href="index.html">HOME</a></li>
@@ -21,7 +21,14 @@
         </nav>
     </header>
     <div class="container">
-        <img src="img/on.jpg" alt="lâmpada" id="lamp" onclick="sw(3)">
+        <img src="img/swoff.png" alt="interruptor" id="sw1" onclick="sw(1)">
+        <img src="img/swoff.png" alt="interruptor" id="sw2" onclick="sw(2)">
+        <img src="img/off.jpg" alt="lâmpada" id="lamp" onclick="sw(3)">
+        <hr>
+        <p>
+            <img src="img/circ_and.png" alt="circuito">
+            <img src="img/tabeland.png" alt="operador and">
+        </p>
     </div>
     <footer>
         <p>&#169;<span id="copyrightYear"></span> - Amanda Nogueira</p>
